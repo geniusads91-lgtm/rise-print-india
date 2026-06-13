@@ -1,0 +1,45 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+
+# TypeScript/JavaScript
+*.tsbuildinfo
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Prisma
+prisma/migrations/
+prisma/schema.prisma.bak
+
+# Docker
+.dockerenv
+Dockerfile*
+docker-compose*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+```
