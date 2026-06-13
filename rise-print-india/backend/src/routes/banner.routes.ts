@@ -1,0 +1,1 @@
+import { Router } from 'express'; const router = Router(); // TODO: Implement banner routes router.get('/', (req, res) => res.json({ success: true, message: 'banner routes' })); export default router;

@@ -1,0 +1,1 @@
+import { Router } from 'express'; const router = Router(); // TODO: Implement review routes router.get('/', (req, res) => res.json({ success: true, message: 'review routes' })); export default router;
